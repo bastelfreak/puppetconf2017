@@ -113,6 +113,10 @@
         float: right;
         padding-top: 1em;
       }
+      .right-column .something img {
+        width: auto;
+        height: 600px;
+      }
       .right-column-center {
         width: 75%;
         float: right;
@@ -133,7 +137,7 @@
           transform: scale(1) !important;
           top: 0 !important;
           left: 0 !important;
-          size: 1024px 786px;
+          size: 1920px 1080px;
         }
       }
     </style>
@@ -144,7 +148,7 @@
 class: center, middle, inverse
 
 # Vox Pupuli - Empowering the Puppet Community
-
+## PuppetConf 2017 Edition
 ---
 
 background-image: url(blue-skies.jpg)
@@ -154,7 +158,7 @@ background-size: cover
 
 * Tim 'bastelfreak' Meusel
 
-* Systems Engineer for heg.com
+* Systems Engineer for heg.com -> GoDaddy EMEA
 
 * Puppet Contributor since 2012
 
@@ -162,27 +166,29 @@ background-size: cover
 
 * Vox Pupuli PMC member
 
-* Archlinux(.de) Community Manager
+* Organizing BBQ events for Arch Linux people
 
 ---
 
 background-image: url(blue-skies.jpg)
 background-size: cover
 
-## Vox Pupuli
-
 .left-column[
-
-## What is Vox Pupuli?
+## Vox Pupuli
+### What?
 
 ]
 .right-column[
+
+### How to write and pronounce
 
 * Vox Pupuli
 
 * VoxPupuli
 
 * Voxpupuli
+
+* voxpupuli
 
 * puppet-community -> Vox Pupuli
 
@@ -195,33 +201,11 @@ background-size: cover
 background-image: url(blue-skies.jpg)
 background-size: cover
 
-## Vox Pupuli
-
 .left-column[
-
-## What is Vox Pupuli (and why is it awesome)?
-
-]
-.right-column[
-
-
-]
-
-.footnote[@bastelsblog for @voxpupuliorg]
-
----
-
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
 ## Vox Pupuli
-
-.left-column[
-
-## What is Vox Pupuli (and why is it awesome)?
-
+###What?
 ]
+
 .right-column[
 
 * Maintain many many modules
@@ -230,18 +214,21 @@ background-size: cover
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
+???
+
+We maintain more modules than the company Puppet
+this leads to some challenges
+
 ---
 
 background-image: url(blue-skies.jpg)
 background-size: cover
 
-## Vox Pupuli
-
 .left-column[
-
-## What is Vox Pupuli (and why is it awesome)?
-
+## Vox Pupuli
+### What?
 ]
+
 .right-column[
 
 * Maintain many many modules
@@ -252,18 +239,21 @@ background-size: cover
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
+???
+
+24/7 someone is in the IRC to help you
+We've a code of conduct but never had to enforce it
+
 ---
 
 background-image: url(blue-skies.jpg)
 background-size: cover
 
 ## Vox Pupuli
-
 .left-column[
-
-## What is Vox Pupuli (and why is it awesome)?
-
+### What?
 ]
+
 .right-column[
 
 * Maintain many many modules
@@ -276,11 +266,32 @@ background-size: cover
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
+???
+
+People get easily access to our repos
+we encourage users to contribute
+
 ---
+
+background-image: url(blue-skies.jpg)
+background-size: cover
 
 ## Vox Pupuli
 
-![github stats](githubstats.png)
+.left-column[
+### What?
+]
+.right-column[
+
+* Maintain many many modules
+
+* Be helpful and excellent to each other
+
+* Be open-minded to people and technology
+
+* Provide a home for orphaned Puppet modules
+
+]
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
@@ -292,11 +303,39 @@ background-size: cover
 ## Vox Pupuli
 
 .left-column[
-
-## What is Vox Pupuli (and why is it awesome)?
-
+### What?
 ]
 .right-column[
+
+* Maintain many many modules
+
+* Be helpful and excellent to each other
+
+* Be open-minded to people and technology
+
+* Provide a home for orphaned Puppet modules
+
+* Unite lonely module and tooling authors to a collective
+]
+
+.footnote[@bastelsblog for @voxpupuliorg]
+
+---
+background-image: url(blue-skies.jpg)
+background-size: cover
+
+## Vox Pupuli
+
+.left-column[
+### What?
+]
+.right-column[
+
+* Maintain many many modules
+
+* Be helpful and excellent to each other
+
+* Be open-minded to people and technology
 
 * Provide a home for orphaned Puppet modules
 
@@ -316,18 +355,17 @@ background-size: cover
 ## Vox Pupuli
 
 .left-column[
-
-## Who is Vox Pupuli?
-
+### What?
+### Who?
 ]
 
 .right-column[
 
-* Currently 94 people with merge permissions
+* Currently 107 people with merge permissions
 
 * We were 80 in november 2016
 
-* A few people work for Puppet Inc.
+* Just a few people work for Puppet Inc.
 
 * Most of the contributors participate in their free time
 
@@ -337,6 +375,9 @@ background-size: cover
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
+???
+5 regular contributor work at Puppet Inc.
+
 ---
 
 background-image: url(blue-skies.jpg)
@@ -345,9 +386,8 @@ background-size: cover
 ## Vox Pupuli
 
 .left-column[
-
-## Who is Vox Pupuli?
-
+### What?
+### Who?
 ]
 
 .right-column[
@@ -355,16 +395,22 @@ background-size: cover
 
 * Many git newbies
 
+  * Rebasing a feature branch against upstream master is hard
+
 * Many administrators of legacy infrastructures
 
-  * Puppet2.7, Ruby187
+  * Puppet3, Ruby191, Ruby2.0
 
-  * Now also legacy: Puppet3, Ruby191, Ruby2.0
+  * November 2016: Puppet2.7, Ruby187
 
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
+???
+Was: Ruby hashrocket notation doesnt work on ruby187
+Now: There is a strange datatype that my code
+Now: Data-in-modules doesn't work
 ---
 
 background-image: url(blue-skies.jpg)
@@ -373,8 +419,9 @@ background-size: cover
 ## Vox Pupuli
 
 .left-column[
-
-## Why is Vox Pupuli?
+### What?
+### Who?
+### Why?
 
 ]
 
@@ -388,24 +435,37 @@ background-size: cover
 
   * Ruby ecosystem and related tools are changing too fast for a single person
 
+  * Everything has to work on multiple Ruby/Puppet versions
+
+  * Rubocop
+
+  * Rubocop
+
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
+
+
+???
+
+Who tried to fix rubocop warnings in a module and couldnt fix all?
 
 ---
 
 ## Vox Pupuli
 
 .left-column[
-
-## How?
+### What?
+### Who?
+### Why?
+### How?
 
 ]
 
 .right-column[
-
-![Right-aligned image](automate.jpg)
-
+  .something[
+    ![Right-aligned image](automate.jpg)
+  ]
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
@@ -426,7 +486,7 @@ background-size: cover
 
 .right-column[
 
-* We are managing more than 81 modules
+* We are managing more than 88 modules
 
 * We had 75 in november 2016
 
@@ -434,7 +494,11 @@ background-size: cover
 
 * It takes a config file + templates, throws it into every modules git repo
 
+* Works with GitHub Pull Requests
+
 * Everybody can start it
+
+* Every of our Collaborators can approve/merge it
 
 ]
 
@@ -459,13 +523,13 @@ background-size: cover
 
 ![Right-aligned image](travis.png)
 
-* Free platform
+* Free CI platform
 
-* rpsec-puppet common Puppet*Ruby versions
+* Puppet Inc. sponsors us unlimited? concurrent travis slots
+
+* rpsec-puppet on common Puppet*Ruby versions
 
 * release modules to the forge
-
-* 10-60min per module, doesn't scale :sadface:
 
 ]
 
@@ -494,6 +558,8 @@ background-size: cover
 * provides rake task to bump + tag a module
 
   * Also pushed to the forge
+
+* Upcoming: Also create a github release
 
 ]
 
@@ -555,8 +621,6 @@ Can be executed:
 
 * with docker on travis
 
-* on our own infra with docker or QEMU/Virtualbox
-
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
@@ -591,37 +655,10 @@ background-size: cover
 * https://github.com/voxpupuli/thevoxfox
 
   * IRC bot, allows us to merge stuff + trigger modulesync (soon, maybe)
-]
-
-.footnote[@bastelsblog for @voxpupuliorg]
-
----
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-## Vox Pupuli
-
-.left-column[
-
-## How?
-### modulesync
-### travis
-### Release task
-### beaker
-### Tooling
-]
-
-.right-column[
-
-* http://voxpupuli.bastelfreak.de/
-
-  * IRC stats
 
 * https://github.com/bastelfreak/contributorstats
 
   * count contributions
-
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
@@ -632,29 +669,7 @@ background-size: cover
 
 .left-column[
 
-## How?
-### modulesync
-### travis
-### Release task
-### beaker
-### Tooling
-]
-
-.right-column[
-
-![image](ircstats.png)
-
-]
-
-.footnote[@bastelsblog for @voxpupuliorg]
-
----
-
-## Vox Pupuli
-
-.left-column[
-
-## Governance?
+### Governance?
 
 ]
 
@@ -675,7 +690,7 @@ background-size: cover
 
 .left-column[
 
-## Governance?
+### Governance?
 ###PMC
 
 ]
@@ -690,6 +705,8 @@ background-size: cover
 
 * PMC guidelines are created by the community https://tinyurl.com/voxpupuli-governance-md
 
+* Next election will start soonish
+
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
@@ -703,7 +720,7 @@ background-size: cover
 
 .left-column[
 
-## Governance?
+### Governance?
 ### PMC
 ### Collaborators
 
@@ -743,7 +760,11 @@ background-size: cover
 
 .right-column[
 
-* Election officer for managing the yearly PMC election
+* Election officer
+
+  * Spencer Krum (@nibalizer)
+
+  * Runs the yearly PMC election
 
 * Security officer
 
@@ -758,6 +779,55 @@ background-size: cover
 .footnote[@bastelsblog for @voxpupuliorg]
 
 ---
+
+background-image: url(blue-skies.jpg)
+background-size: cover
+
+
+## Vox Pupuli
+
+.left-column[
+## Daily Business
+### Quotes
+
+]
+
+.right-column[
+
+* Response to issues/PR
+
+* bla
+
+* bla
+
+]
+
+---
+
+background-image: url(blue-skies.jpg)
+background-size: cover
+
+
+## Vox Pupuli
+
+.left-column[
+## Daily Business
+### Quotes
+### 
+]
+
+.right-column[
+
+* 'Release early - release often' - Igor Galic
+
+* 'Version numbers are cheap - use them' - Igor Galic
+
+* 'DevOps is all about empathy' - Rob Nelson
+
+]
+
+---
+
 background-image: url(blue-skies.jpg)
 background-size: cover
 
@@ -790,30 +860,6 @@ background-size: cover
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
-
----
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-
-## Vox Pupuli
-
-.left-column[
-
-## Quotes
-
-]
-
-.right-column[
-
-* 'Release early - release often' - Igor Galic
-
-* 'Version numbers are cheap - use them' - Igor Galic
-
-* 'DevOps is all about empathy' - Rob Nelson
-
-]
 
 ---
 
